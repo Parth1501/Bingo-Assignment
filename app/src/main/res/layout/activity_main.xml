@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/table1"
+        android:padding="8dp"
+        android:visibility="invisible"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow
+        android:layout_width="wrap_content"
+            android:padding="8dp"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/r1c1"
+            android:text="Hello"
+            android:layout_weight="1">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/r1c2"
+            android:text="Hello"
+            android:layout_weight="1">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/r1c3"
+            android:text="Hello"
+            android:layout_weight="1">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/r1c4"
+            android:text="Hello"
+            android:layout_weight="1">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/r1c5"
+            android:text="Hello"
+            android:layout_weight="1">
+
+        </TextView>
+    </TableRow>
+        <TableRow
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/r2c1"
+                android:text="Hello"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/r2c2"
+                android:text="Hello"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/r2c3"
+                android:text="Hello"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/r2c4"
+                android:text="Hello"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/r2c5"
+                android:text="Hello"
+                android:layout_weight="1">
+
+            </TextView>
+        </TableRow>
+        <TableRow
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/r3c1"
+                android:text="Hello"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/r3c2"
+                android:text="Hello"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/r3c3"
+                android:text="Hello"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/r3c4"
+                android:text="Hello"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/r3c5"
+                android:text="Hello"
+                android:layout_weight="1">
+
+            </TextView>
+        </TableRow>
+        <TableRow
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/r4c1"
+                android:text="Hello"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/r4c2"
+                android:text="Hello"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/r4c3"
+                android:text="Hello"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/r4c4"
+                android:text="Hello"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/r4c5"
+                android:text="Hello"
+                android:layout_weight="1">
+
+            </TextView>
+        </TableRow>
+        <TableRow
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/r5c1"
+                android:text="Hello"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/r5c2"
+                android:text="Hello"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/r5c3"
+                android:text="Hello"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/r5c4"
+                android:text="Hello"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/r5c5"
+                android:text="Hello"
+                android:layout_weight="1">
+
+            </TextView>
+        </TableRow>
+
+    </TableLayout>
+
+        <TableLayout
+
+            android:id="@+id/table2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:foregroundGravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:id="@+id/R1C1"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="1">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/R1C2"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="2">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/R1C3"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="3">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/R1C4"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="4">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/R1C5"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="Hello">
+
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                >
+
+                <EditText
+                    android:id="@+id/R2C1"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="Hello">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/R2C2"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="Hello">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/R2C3"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="Hello">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/R2C4"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="Hello">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/R2C5"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="Hello">
+
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:id="@+id/R3C1"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="Hello">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/R3C2"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="Hello">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/R3C3"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="Hello">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/R3C4"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="Hello">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/R3C5"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="Hello">
+
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:id="@+id/R4C1"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="Hello">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/R4C2"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="Hello">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/R4C3"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="Hello">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/R4C4"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="Hello">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/R4C5"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="Hello">
+
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                >
+
+                <EditText
+                    android:id="@+id/R5C1"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="Hello">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/R5C2"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="Hello">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/R5C3"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="Hello">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/R5C4"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:onClick="winner"
+                    android:text="Hello">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/R5C5"
+                    android:layout_weight="1"
+                    android:background="@drawable/background"
+                    android:clickable="false"
+                    android:onClick="winner">
+
+                </EditText>
+            </TableRow>
+
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="57dp"
+            android:layout_marginEnd="246dp"
+            android:gravity="center_horizontal"
+            android:onClick="errorCheck"
+            android:text="Play" />
+        <Button
+            android:id="@+id/random"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="57dp"
+            android:layout_marginEnd="76dp"
+            android:gravity="center_horizontal"
+            android:onClick="random"
+            android:text="Random" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="150dp"
+            android:onClick="reset"
+            android:text="Play Again"
+            android:visibility="invisible"
+
+            />
+
+        <TextView
+            android:id="@+id/winner_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="600dp"
+            android:gravity="center_horizontal"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/comp_value"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="120dp"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/bingo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="215dp"
+            android:layout_below="@+id/table2"
+            android:gravity="center_horizontal"
+            android:textSize="35dp"/>
+
+
+    </RelativeLayout>
+</ScrollView>
